@@ -18,4 +18,10 @@ public class UserTest {
 		assertEquals("Name Familyname", testUser.fullName());
 	}
 
+	@Test
+	public void getUppercaseNameTest() {
+		User testUser = new User(111, "Name", "FamilyName");
+		assertEquals("NAME", testUser.getUppercaseName());
+	}
+	
 }
