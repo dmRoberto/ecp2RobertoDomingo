@@ -20,6 +20,11 @@ public class FractionTest {
 	}
 	
 	@Test
+	public void isPropiaTest(){
+		assertEquals(true, fraction.isPropia());
+	}
+	
+	@Test
 	public void multiplicarPorTest(){
 		Fraction resultado = fraction.multiplicarPor(new Fraction(2,3));
 		assertEquals(new Fraction(10,30), resultado);

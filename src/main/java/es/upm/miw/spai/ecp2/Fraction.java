@@ -60,11 +60,18 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
+    //TODO
+    public boolean isPropia(){    	
+    		return false;
+    }
+    
+  //TODO
     public Fraction multiplicarPor(Fraction fraccion){    	
     	return new Fraction();
     }
     
-    //Es necesario implementar el Override para que los Test funcionen
+    //TODO
+    //Es necesario implementar el Override para que los Tests funcionen
     @Override
     public boolean equals(Object other){
     	return false;
