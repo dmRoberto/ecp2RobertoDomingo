@@ -62,7 +62,7 @@ public class Fraction {
     
     //TODO
     public boolean isPropia(){    	
-    		return false;
+    		return this.numerator < this.denominator;
     }
     
     //TODO
@@ -77,9 +77,9 @@ public class Fraction {
     
     //TODO
     //Es necesario implementar el Override para que los Tests funcionen
-    @Override
-    public boolean equals(Object other){
-    	return false;
+    
+    public boolean equals(Fraction fr){
+    	return (this.numerator==fr.getNumerator() && this.denominator==fr.getDenominator());
 	}
     
 }
