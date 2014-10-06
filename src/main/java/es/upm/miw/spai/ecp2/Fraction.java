@@ -65,6 +65,11 @@ public class Fraction {
     		return false;
     }
     
+    //TODO
+    public boolean isEquivalente(Fraction fraccion){    	
+    		return false;
+    }
+    
   //TODO
     public Fraction multiplicarPor(Fraction fraccion){    	
     	return new Fraction();

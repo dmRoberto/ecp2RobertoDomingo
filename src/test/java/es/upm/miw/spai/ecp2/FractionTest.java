@@ -25,6 +25,11 @@ public class FractionTest {
 	}
 	
 	@Test
+	public void isEquivalenteTest(){
+		assertEquals(false, fraction.isEquivalente(new Fraction(2,3)));
+	}
+	
+	@Test
 	public void multiplicarPorTest(){
 		Fraction resultado = fraction.multiplicarPor(new Fraction(2,3));
 		assertEquals(new Fraction(10,30), resultado);
