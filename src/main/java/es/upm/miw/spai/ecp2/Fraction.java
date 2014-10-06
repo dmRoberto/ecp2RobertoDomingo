@@ -60,4 +60,14 @@ public class Fraction {
         return (double) numerator / denominator;
     }
     
+    public Fraction multiplicarPor(Fraction fraccion){    	
+    	return new Fraction();
+    }
+    
+    //Es necesario implementar el Override para que los Test funcionen
+    @Override
+    public boolean equals(Object other){
+    	return false;
+	}
+    
 }
