@@ -71,8 +71,11 @@ public class Fraction {
     }
     
   //TODO
-    public Fraction multiplicarPor(Fraction fraccion){    	
-    	return new Fraction();
+    public Fraction multiplicarPor(Fraction fraccion){    
+    	Fraction resultado = new Fraction();
+    	resultado.numerator=this.getNumerator()*fraccion.getNumerator();
+    	resultado.denominator=this.getDenominator()*fraccion.getDenominator();
+    	return resultado;
     }
     
     //TODO
