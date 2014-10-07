@@ -32,7 +32,8 @@ public class FractionTest {
 	@Test
 	public void multiplicarPorTest(){
 		Fraction resultado = fraction.multiplicarPor(new Fraction(2,3));
-		assertEquals(new Fraction(10,30), resultado);
+		assertEquals(10, resultado.getNumerator());
+		assertEquals(30, resultado.getDenominator());
 	}
 	
 	
