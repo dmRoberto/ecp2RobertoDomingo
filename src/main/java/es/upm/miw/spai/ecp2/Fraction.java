@@ -65,9 +65,8 @@ public class Fraction {
     		return this.numerator < this.denominator;
     }
     
-    //TODO
     public boolean isEquivalente(Fraction fraccion){    	
-    		return false;
+    		return this.numerator * fraccion.denominator == this.denominator*fraccion.numerator;
     }
     
   //TODO
