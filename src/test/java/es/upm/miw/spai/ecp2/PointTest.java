@@ -55,7 +55,7 @@ public class PointTest {
     }
     @Test
     public void testSetY() {
-        pt.setX(5);
+        pt.setY(5);
         assertEquals(5, pt.getY());
     }
     @Test
